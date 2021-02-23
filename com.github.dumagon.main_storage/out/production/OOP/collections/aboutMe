@@ -1,0 +1,56 @@
+
+
+
+                                                       COLLECTIONS FRAMEWORK 
+                                                       
+                                                       
+                                                       
+                           Collection                                                         Map
+                       
+                  Set         List           Queue                     WeakHashMap       HashMap        SortedMap            HashTable
+|                                                                                           |                |
+                         
+                                                                                     LinkedHashMap       NavigableMap
+                                                                                                               |
+                                                                                                           TreeMap
+                                                                                                           
+                                                                                                           
+                                                                                                           
+                  List                                                          Queue                                                    
+                                                                                  |
+         Vector     ArrayList   LinkedLIst                                      Deque
+            |                                                                     |
+         Stack                                                                 ArrayDeque
+         
+         
+         
+                  Set        <-      SortedSet
+                   |                    |
+         HashSet   TreeSet  ->      NavigableSet
+            |
+         LinkedSet   
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+                  
