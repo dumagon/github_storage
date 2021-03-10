@@ -1,0 +1,12 @@
+            
+            
+            
+            
+            
+            
+            The Java Set interface represents an unordered collection of objects.
+            
+           Unlike the List, a Set does not allow you to access the elements of a Set in any guaranteed order.
+           
+             There are Set implementations that order elements based on their natural ordering,
+         but the Set interface itself provides no such guarantees.

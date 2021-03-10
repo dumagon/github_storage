@@ -1,0 +1,59 @@
+
+
+
+
+                              The Java SortedSet interface represents an ordered collection of objects.
+                              
+                               Thus, the elements in the SortedSet can be iterated in the sorted order.
+                               
+                               The java TreeSet implements the Red-Black logic . Thus Nodes in TreeSet object 
+                               have a boolean field that can be either true(BLACK) or false(RED) 
+                               
+                               "                                                        "
+                               
+                                                         [BLACK]
+                                                       /         \ 
+                                                   [RED]          [RED] 
+                                                  /    \          /    \
+                                               [black] [black] [black] [black]  
+                                              /     \   /   \    /  \    /  \
+                                            N       N   N    N  N    N  N    N
+                                            
+                                            
+                                            RB tree requirements :
+                                            
+                                            Each node is either red or black.
+                                            
+                                     The root is black. This rule is sometimes omitted.
+                                     
+                                  Since the root can always be changed from red to black,
+                           but not necessarily vice versa, this rule has little effect on analysis.
+                           
+                                           All leaves (NIL) are black.
+                                           
+                             If a node is red, then both its children are black.
+                             
+                  Every path from a given node to any of its descendant NIL nodes goes through the same number of black nodes.
+                               
+                               
+                               
+                               
+                               
+                               
+                               
+                               
+                               
+                               
+                               
+                               
+                               
+                               
+                               
+                               
+                               
+                               
+                               
+                               
+                               
+                               
+              
