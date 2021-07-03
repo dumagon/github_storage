@@ -34,6 +34,7 @@ class MySpinLock{
 			}
 			
 			wasSignalled=false;
+			System.out.println(Thread.currentThread().getName()+" notified ");
 			
 			
 			
@@ -64,24 +65,33 @@ public class SpuriousWakeUps {
 	public static void main(String[] args) {
 		
 		 MySpinLock mySpinLock=new MySpinLock();
-		
-		
-
-		Thread thr1=new Thread("1") {
-			
-			@Override
-			public void run() {
-
-				mySpinLock.doWait();
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+			Thread thr1=new Thread("1") {
 				
-				System.out.println(Thread.currentThread().getName());
+				@Override
+				public void run() {
+
+					mySpinLock.doWait();
+					
+					System.out.println(Thread.currentThread().getName());
+					
+				}
+				
+				
 				
 			};
 			
-			
-			
-		};
 		
+		
+
+	
 		
 		Thread thr2=new Thread("2"){
 			

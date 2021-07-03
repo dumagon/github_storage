@@ -172,8 +172,9 @@ public class LockDeadLock {
 		
 		
 		a.start();
-		b.start();
-		//c.start();   this is how we would prevent the deadlock 
+	    b.start();
+		//c.start();  
+		// this is how we would prevent the deadlock 
 		
 		
 		
