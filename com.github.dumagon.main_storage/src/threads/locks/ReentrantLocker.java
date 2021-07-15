@@ -40,6 +40,7 @@ class ReentrantLock{
 	public void unlock() {
 		
 		if(Thread.currentThread()==lockedBy) {
+			lockCount--;
 			
 			if(lockCount==0) {
 				
